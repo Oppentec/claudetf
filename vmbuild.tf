@@ -58,4 +58,5 @@ resource "azurerm_resource_group" "example1" {
   provider = azurerm.prodsubcription
   name     = "rg_import"
   location = "westus"
+  #test
 }
