@@ -6,7 +6,7 @@ provider "azurerm" {
   client_id       = "2fa8faf9-44c5-4f91-9302-b8ad9475c8e3"
   client_secret   = "PpiA0.QL-LfzV8cChjSJTdS.w6PTTS~4Mz"
   tenant_id       = "3cb35a01-000a-4736-ad3b-440306485905"
-
+#add comments
 }
 terraform {
   required_providers {
