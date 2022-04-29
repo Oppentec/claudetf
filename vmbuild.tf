@@ -21,6 +21,9 @@ resource "azurerm_resource_group" "example" {
   provider = azurerm.prodsubcription
   name     = "rg-nsg"
   location = "westus"
+  tags = {
+    environment = "Test"
+  }
 }
 resource "azurerm_network_security_group" "example" {
   provider            = azurerm.prodsubcription
@@ -58,4 +61,7 @@ resource "azurerm_resource_group" "example1" {
   provider = azurerm.prodsubcription
   name     = "rg_import"
   location = "westus"
+    tags = {
+    environment = "Test"
+  }
 }
